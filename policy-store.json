@@ -5,11 +5,6 @@
             "name": "string3",
             "description": "string",
             "policies": {
-                "cf3e35b8be909755fb01100367d3e7fab39d598ba85f": {
-                    "description": "string",
-                    "creation_date": "2024-11-05T15:22:01.948592",
-                    "policy_content": "aaaaaaaaaaaaaaaaaaaa"
-                },
                 "e17a9d9307b05d112906eac52a3b6e59d29b2702e141": {
                     "description": "string",
                     "creation_date": "2024-11-05T15:22:18.167828",
