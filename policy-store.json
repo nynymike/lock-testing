@@ -13,7 +13,7 @@
             },
             "trusted_issuers": {
                 "e73e7bfe40379895e2c723344eeb0d8ed0de3f7cdc9a": {
-                    "name": "string",
+                    "name": "string2",
                     "description": "string",
                     "openid_configuration_endpoint": "string",
                     "access_tokens": {},
