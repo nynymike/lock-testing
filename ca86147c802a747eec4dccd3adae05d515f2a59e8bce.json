@@ -7,7 +7,7 @@
             "policies": {},
             "trusted_issuers": {
                 "22596f9c21f32396a8723311ceb39553774d0a572816": {
-                    "name": "string",
+                    "name": "newname",
                     "description": "string",
                     "openid_configuration_endpoint": "string",
                     "access_tokens": {},
