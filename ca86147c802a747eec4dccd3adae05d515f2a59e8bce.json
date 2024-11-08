@@ -14,6 +14,11 @@
                     "description": "string",
                     "creation_date": "2024-11-08T09:52:54.942038",
                     "policy_content": "e30"
+                },
+                "0d8d93bc416856949603da493bf305d7f904e1f91238": {
+                    "description": "string",
+                    "creation_date": "2024-11-08T09:53:04.736198",
+                    "policy_content": "e30=="
                 }
             },
             "trusted_issuers": {},
