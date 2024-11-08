@@ -9,6 +9,11 @@
                     "description": "string",
                     "creation_date": "2024-11-08T09:53:04.736198",
                     "policy_content": "e30=="
+                },
+                "5773490881cf1ee86b4e1df9cc301d612d17599fcb16": {
+                    "description": "string",
+                    "creation_date": "2024-11-08T09:57:28.593341",
+                    "policy_content": "e30"
                 }
             },
             "trusted_issuers": {},
