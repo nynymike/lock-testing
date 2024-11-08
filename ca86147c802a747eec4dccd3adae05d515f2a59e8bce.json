@@ -6,19 +6,6 @@
             "description": "string",
             "policies": {},
             "trusted_issuers": {
-                "22596f9c21f32396a8723311ceb39553774d0a572816": {
-                    "name": "newname",
-                    "description": "string",
-                    "openid_configuration_endpoint": "string",
-                    "access_tokens": {},
-                    "id_tokens": {
-                        "claim_mappings": {
-                            "something": "something_else"
-                        }
-                    },
-                    "userinfo_tokens": {},
-                    "tx_tokens": {}
-                },
                 "8f843c02282de9a7bc3260ae7877c996359d9e4425b9": {
                     "name": "string",
                     "description": "string",
