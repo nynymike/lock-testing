@@ -5,16 +5,6 @@
             "name": "string",
             "description": "string",
             "policies": {
-                "db6ad2e423fa4be0e39ce426e567e4e382aa76232733": {
-                    "description": "string",
-                    "creation_date": "2024-11-08T09:52:41.804224",
-                    "policy_content": "string"
-                },
-                "86d7dcf15138c707bf9afd253ead7c06730bf0a84527": {
-                    "description": "string",
-                    "creation_date": "2024-11-08T09:52:54.942038",
-                    "policy_content": "e30"
-                },
                 "0d8d93bc416856949603da493bf305d7f904e1f91238": {
                     "description": "string",
                     "creation_date": "2024-11-08T09:53:04.736198",
