@@ -4,7 +4,13 @@
         "ca86147c802a747eec4dccd3adae05d515f2a59e8bce": {
             "name": "string",
             "description": "string",
-            "policies": {},
+            "policies": {
+                "c51127c08657ca193cdeb2bfc61a1e79c65d0528a192": {
+                    "description": "test policy",
+                    "creation_date": "2024-11-12T21:13:11.087667",
+                    "policy_content": "QGlkKCJ0ZXN0IHBvbGljeSIpCnBlcm1pdAooCiBwcmluY2lwYWwgPT0gc3RyaW5nOjpXb3JrbG9hZDo6InNvbWVfaWQiLAogYWN0aW9uIGluIFtzdHJpbmc6OkFjdGlvbjo6IkRFTEVURSJdLAogcmVzb3VyY2UgPT0gc3RyaW5nOjpIVFRQX1JlcXVlc3Q6OiJzb21lX290aGVyX2lkIgopCjs="
+                }
+            },
             "trusted_issuers": {
                 "8f843c02282de9a7bc3260ae7877c996359d9e4425b9": {
                     "name": "string",
