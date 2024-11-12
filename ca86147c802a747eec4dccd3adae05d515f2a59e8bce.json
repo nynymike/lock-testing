@@ -18,8 +18,8 @@
                     "openid_configuration_endpoint": "string",
                     "access_tokens": {},
                     "id_tokens": {
-                        "user_id": "...",
-                        "role_mapping": "...",
+                        "user_id": "user",
+                        "role_mapping": "role",
                         "claim_mapping": {
                             "email": {
                                 "parser": "regex",
