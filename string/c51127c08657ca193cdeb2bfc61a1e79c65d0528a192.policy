@@ -1,8 +1,0 @@
-@id("test policy")
-permit
-(
- principal == string::Workload::"some_id",
- action in [string::Action::"DELETE"],
- resource == string::HTTP_Request::"some_other_id"
-)
-;
