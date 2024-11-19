@@ -1,0 +1,2 @@
+@id("")
+permit(principal is test::User, action == test::Action::"Read", resource is test::Application) when { (resource["name"]) == "Some Application" };
