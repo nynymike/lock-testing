@@ -21,12 +21,12 @@
                         "principal_identifier": "jti",
                         "user_id": "",
                         "role_mapping": "",
-                        "claim_mapping": ""
+                        "claim_mapping": {}
                     },
                     "id_tokens": {
                         "user_id": "",
                         "role_mapping": "",
-                        "claim_mapping": ""
+                        "claim_mapping": {}
                     },
                     "userinfo_tokens": {
                         "user_id": "sub",
@@ -79,7 +79,7 @@
                     "tx_tokens": {
                         "user_id": "",
                         "role_mapping": "",
-                        "claim_mapping": ""
+                        "claim_mapping": {}
                     }
                 }
             },
