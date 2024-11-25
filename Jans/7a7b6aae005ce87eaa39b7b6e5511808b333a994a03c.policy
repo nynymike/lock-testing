@@ -1,0 +1,2 @@
+@id("")
+permit(principal, action, resource);
