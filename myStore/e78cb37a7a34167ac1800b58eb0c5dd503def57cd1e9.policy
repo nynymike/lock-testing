@@ -1,2 +1,2 @@
 @policy1("allows everything")
-permit(principal, action, resource);
+permit(principal is myStore::User, action == myStore::Action::"Execute", resource is myStore::Application);
