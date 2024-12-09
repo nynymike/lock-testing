@@ -1,36 +1,6 @@
 {
 	"portalTesting": {
 		"commonTypes": {
-			"email_address": {
-				"type": "Record",
-				"attributes": {
-					"domain": {
-						"type": "EntityOrCommon",
-						"name": "String"
-					},
-					"uid": {
-						"type": "EntityOrCommon",
-						"name": "String"
-					}
-				}
-			},
-			"Url": {
-				"type": "Record",
-				"attributes": {
-					"host": {
-						"type": "EntityOrCommon",
-						"name": "String"
-					},
-					"path": {
-						"type": "EntityOrCommon",
-						"name": "String"
-					},
-					"protocol": {
-						"type": "EntityOrCommon",
-						"name": "String"
-					}
-				}
-			},
 			"Context": {
 				"type": "Record",
 				"attributes": {
@@ -81,6 +51,36 @@
 					"user_agent": {
 						"type": "EntityOrCommon",
 						"required": false,
+						"name": "String"
+					}
+				}
+			},
+			"email_address": {
+				"type": "Record",
+				"attributes": {
+					"domain": {
+						"type": "EntityOrCommon",
+						"name": "String"
+					},
+					"uid": {
+						"type": "EntityOrCommon",
+						"name": "String"
+					}
+				}
+			},
+			"Url": {
+				"type": "Record",
+				"attributes": {
+					"host": {
+						"type": "EntityOrCommon",
+						"name": "String"
+					},
+					"path": {
+						"type": "EntityOrCommon",
+						"name": "String"
+					},
+					"protocol": {
+						"type": "EntityOrCommon",
 						"name": "String"
 					}
 				}
@@ -332,41 +332,6 @@
 					}
 				}
 			},
-			"User": {
-				"shape": {
-					"type": "Record",
-					"attributes": {
-						"email": {
-							"type": "EntityOrCommon",
-							"name": "email_address"
-						},
-						"phone_number": {
-							"type": "EntityOrCommon",
-							"required": false,
-							"name": "String"
-						},
-						"role": {
-							"type": "Set",
-							"element": {
-								"type": "EntityOrCommon",
-								"name": "String"
-							}
-						},
-						"sub": {
-							"type": "EntityOrCommon",
-							"name": "String"
-						},
-						"username": {
-							"type": "EntityOrCommon",
-							"required": false,
-							"name": "String"
-						}
-					}
-				},
-				"memberOfTypes": [
-					"Role"
-				]
-			},
 			"Userinfo_token": {
 				"shape": {
 					"type": "Record",
@@ -457,6 +422,44 @@
 						}
 					}
 				}
+			},
+			"User": {
+				"shape": {
+					"type": "Record",
+					"attributes": {
+						"email": {
+							"type": "EntityOrCommon",
+							"name": "email_address"
+						},
+						"phone_number": {
+							"type": "EntityOrCommon",
+							"required": false,
+							"name": "String"
+						},
+						"role": {
+							"type": "Set",
+							"element": {
+								"type": "EntityOrCommon",
+								"name": "String"
+							}
+						},
+						"sub": {
+							"type": "EntityOrCommon",
+							"name": "String"
+						},
+						"username": {
+							"type": "EntityOrCommon",
+							"required": false,
+							"name": "String"
+						}
+					}
+				},
+				"tags": {
+					"type": "String"
+				},
+				"memberOfTypes": [
+					"Role"
+				]
 			}
 		},
 		"actions": {
