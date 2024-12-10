@@ -25,6 +25,7 @@
                     },
                     "id_tokens": {
                         "user_id": "",
+                        "role_mapping": "",
                         "claim_mapping": {}
                     },
                     "userinfo_tokens": {
