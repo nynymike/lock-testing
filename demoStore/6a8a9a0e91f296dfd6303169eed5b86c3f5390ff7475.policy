@@ -1,0 +1,2 @@
+@id("")
+permit(principal is demoStore::User, action == demoStore::Action::"Read", resource is demoStore::Application) when { principal in demoStore::Role::"role1" };
