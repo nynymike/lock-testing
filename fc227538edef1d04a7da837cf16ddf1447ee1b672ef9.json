@@ -24,51 +24,8 @@
                         "claim_mapping": {}
                     },
                     "id_tokens": {
-                        "user_id": "sub",
-                        "claim_mapping": {
-                            "email": {
-                                "parser": "regex",
-                                "type": "demoStore::email_address",
-                                "regex_expression": "^(?P<UID>[^@]+)@(?P<DOMAIN>.+)$",
-                                "UID": {
-                                    "attr": "uid",
-                                    "type": "String"
-                                },
-                                "DOMAIN": {
-                                    "attr": "domain",
-                                    "type": "String"
-                                }
-                            },
-                            "profile": {
-                                "parser": "regex",
-                                "type": "demoStore::Url",
-                                "regex_expression": "(?x) ^(?P<SCHEME>[a-zA-Z][a-zA-Z0-9+.-]*):\\/\\/(?P<HOST>[^\\/:\\#?]+)(?::(?<PORT>\\d+))?(?P<PATH>\\/[^?\\#]*)?(?:\\?(?P<QUERY>[^\\#]*))?(?:(?P<FRAGMENT>.*))?/gm",
-                                "SCHEME": {
-                                    "attr": "scheme",
-                                    "type": "String"
-                                },
-                                "HOST": {
-                                    "attr": "host",
-                                    "type": "String"
-                                },
-                                "PORT": {
-                                    "attr": "port",
-                                    "type": "String"
-                                },
-                                "PATH": {
-                                    "attr": "path",
-                                    "type": "String"
-                                },
-                                "QUERY": {
-                                    "attr": "query",
-                                    "type": "String"
-                                },
-                                "FRAGMENT": {
-                                    "attr": "fragment",
-                                    "type": "String"
-                                }
-                            }
-                        }
+                        "user_id": "",
+                        "claim_mapping": {}
                     },
                     "userinfo_tokens": {
                         "user_id": "sub",
