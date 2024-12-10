@@ -4,7 +4,13 @@
         "fc227538edef1d04a7da837cf16ddf1447ee1b672ef9": {
             "name": "demoStore",
             "description": "Demo store",
-            "policies": {},
+            "policies": {
+                "6a8a9a0e91f296dfd6303169eed5b86c3f5390ff7475": {
+                    "description": "",
+                    "creation_date": "2024-12-10T16:57:36.002265",
+                    "policy_content": "QGlkKCIiKQpwZXJtaXQocHJpbmNpcGFsIGlzIGRlbW9TdG9yZTo6VXNlciwgYWN0aW9uID09IGRlbW9TdG9yZTo6QWN0aW9uOjoiUmVhZCIsIHJlc291cmNlIGlzIGRlbW9TdG9yZTo6QXBwbGljYXRpb24pIHdoZW4geyBwcmluY2lwYWwgaW4gZGVtb1N0b3JlOjpSb2xlOjoicm9sZTEiIH07"
+                }
+            },
             "trusted_issuers": {
                 "3d05f8a6e573514ca65b25773bf843f330d3488e09e2": {
                     "name": "Demo Auth Server",
