@@ -13,7 +13,17 @@
                     "access_tokens": {
                         "trusted": true,
                         "principal_identifier": "jti",
-                        "user_id": "email",
+                        "user_id": "",
+                        "role_mapping": "",
+                        "claim_mapping": {}
+                    },
+                    "id_tokens": {
+                        "user_id": "",
+                        "role_mapping": "",
+                        "claim_mapping": {}
+                    },
+                    "userinfo_tokens": {
+                        "user_id": "sub",
                         "role_mapping": "role",
                         "claim_mapping": {
                             "email": {
@@ -59,16 +69,6 @@
                                 }
                             }
                         }
-                    },
-                    "id_tokens": {
-                        "user_id": "",
-                        "role_mapping": "",
-                        "claim_mapping": {}
-                    },
-                    "userinfo_tokens": {
-                        "user_id": "",
-                        "role_mapping": "",
-                        "claim_mapping": {}
                     },
                     "tx_tokens": {
                         "user_id": "",
