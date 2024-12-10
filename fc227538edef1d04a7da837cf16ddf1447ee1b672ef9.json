@@ -20,7 +20,7 @@
                         "trusted": true,
                         "principal_identifier": "jti",
                         "user_id": "",
-                        "role_mapping": "role",
+                        "role_mapping": "",
                         "claim_mapping": {}
                     },
                     "id_tokens": {
