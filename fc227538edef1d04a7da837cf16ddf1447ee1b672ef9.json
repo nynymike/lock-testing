@@ -24,8 +24,8 @@
                         "claim_mapping": {}
                     },
                     "id_tokens": {
-                        "user_id": "",
-                        "role_mapping": "",
+                        "user_id": "sub",
+                        "role_mapping": "role",
                         "claim_mapping": {
                             "email": {
                                 "parser": "regex",
