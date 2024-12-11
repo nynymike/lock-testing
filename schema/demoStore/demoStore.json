@@ -558,8 +558,7 @@
 				"appliesTo": {
 					"principalTypes": [
 						"User",
-						"Workload",
-						"Role"
+						"Workload"
 					],
 					"resourceTypes": [
 						"Application"
