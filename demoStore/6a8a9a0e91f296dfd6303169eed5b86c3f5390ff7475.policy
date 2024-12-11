@@ -1,2 +1,2 @@
 @id("")
-permit(principal in demoStore::Role::"role1", action == demoStore::Action::"Read", resource is demoStore::Application);
+permit(principal in demoStore::Role::"role1", action == demoStore::Action::"Execute", resource is demoStore::Application);
