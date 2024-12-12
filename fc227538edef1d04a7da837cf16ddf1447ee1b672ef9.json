@@ -15,7 +15,7 @@
                 "3d05f8a6e573514ca65b25773bf843f330d3488e09e2": {
                     "name": "Demo Auth Server",
                     "description": "Demo Auth Server",
-                    "openid_configuration_endpoint": "https://safinwasi-wanted-coral.gluu.info/.well-known/openid-configuration",
+                    "openid_configuration_endpoint": "https://safinwasi-darling-sheep.gluu.info/.well-known/openid-configuration",
                     "access_tokens": {
                         "trusted": true,
                         "principal_identifier": "jti",
