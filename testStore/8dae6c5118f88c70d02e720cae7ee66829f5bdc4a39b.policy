@@ -1,0 +1,2 @@
+@id("")
+permit(principal is testStore::Workload, action == testStore::Action::"GET", resource is testStore::HTTP_Request) when { ((principal["scope"]).contains("secret.scope")) && (((resource["url"])["path"]) == "/protected") };
