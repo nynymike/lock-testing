@@ -111,28 +111,6 @@
 					}
 				}
 			},
-			"HTTP_Request": {
-				"shape": {
-					"type": "Record",
-					"attributes": {
-						"accept": {
-							"type": "Set",
-							"element": {
-								"type": "String"
-							}
-						},
-						"header": {
-							"type": "Set",
-							"element": {
-								"type": "String"
-							}
-						},
-						"url": {
-							"type": "Url"
-						}
-					}
-				}
-			},
 			"id_token": {
 				"shape": {
 					"type": "Record",
@@ -291,6 +269,29 @@
 						},
 						"spiffe_id": {
 							"type": "String"
+						}
+					}
+				}
+			},
+			"HTTP_Request": {
+				"shape": {
+					"type": "Record",
+					"attributes": {
+						"header": {
+							"type": "Record",
+							"attributes": {
+								"Authorization": {
+									"type": "String",
+									"required": false
+								},
+								"Accept": {
+									"type": "String",
+									"required": false
+								}
+							}
+						},
+						"url": {
+							"type": "Url"
 						}
 					}
 				}
