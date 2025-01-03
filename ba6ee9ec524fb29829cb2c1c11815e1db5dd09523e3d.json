@@ -4,7 +4,13 @@
         "ba6ee9ec524fb29829cb2c1c11815e1db5dd09523e3d": {
             "name": "Jans",
             "description": "testing store",
-            "policies": {},
+            "policies": {
+                "76e7acd8e3224cc6d4f6c23ab9ef7f73ba85a2e68850": {
+                    "description": "all_allow",
+                    "creation_date": "2025-01-03T15:33:22.122169",
+                    "policy_content": "QGlkKCJhbGxfYWxsb3ciKQpwZXJtaXQocHJpbmNpcGFsLCBhY3Rpb24sIHJlc291cmNlKTs="
+                }
+            },
             "trusted_issuers": {
                 "05084c034f8b098db003b76953afe506d73b9605f7e1": {
                     "name": "Jans",
