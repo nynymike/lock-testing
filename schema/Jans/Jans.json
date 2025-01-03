@@ -357,8 +357,9 @@
 							"type": "Record",
 							"attributes": {
 								"Accept": {
-									"type": "String",
-									"required": false
+									"type": "EntityOrCommon",
+									"required": false,
+									"name": "String"
 								}
 							}
 						},
