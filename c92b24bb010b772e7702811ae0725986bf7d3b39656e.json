@@ -18,7 +18,7 @@
                     "openid_configuration_endpoint": "https://account.gluu.org/.well-known/openid-configuration",
                     "access_tokens": {
                         "trusted": true,
-                        "principal_identifier": "jti",
+                        "principal_identifier": "",
                         "user_id": "",
                         "role_mapping": "",
                         "claim_mapping": {}
