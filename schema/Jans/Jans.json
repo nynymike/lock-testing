@@ -147,6 +147,26 @@
                     }
                 }
             },
+            "HTTP_Request": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "header": {
+                            "type": "Record",
+                            "attributes": {
+                                "Accept": {
+                                    "type": "String",
+                                    "required": false
+                                }
+                            }
+                        },
+                        "url": {
+                            "type": "EntityOrCommon",
+                            "name": "Url"
+                        }
+                    }
+                }
+            },
             "id_token": {
                 "shape": {
                     "type": "Record",
@@ -364,26 +384,6 @@
                         }
                     }
                 }
-            },
-            "HTTP_Request": {
-                "shape": {
-                    "type": "Record",
-                    "attributes": {
-                        "header": {
-                            "type": "Record",
-                            "attributes": {
-                                "Accept": {
-                                    "type": "String",
-                                    "required": false
-                                }
-                            }
-                        },
-                        "url": {
-                            "type": "EntityOrCommon",
-                            "name": "Url"
-                        }
-                    }
-                }
             }
         },
         "actions": {
@@ -424,19 +424,6 @@
                     ],
                     "resourceTypes": [
                         "Application"
-                    ],
-                    "context": {
-                        "type": "Context"
-                    }
-                }
-            },
-            "GET": {
-                "appliesTo": {
-                    "principalTypes": [
-                        "Workload"
-                    ],
-                    "resourceTypes": [
-                        "HTTP_Request"
                     ],
                     "context": {
                         "type": "Context"
@@ -566,6 +553,20 @@
                     ],
                     "resourceTypes": [
                         "Application"
+                    ],
+                    "context": {
+                        "type": "Context"
+                    }
+                }
+            },
+            "GET": {
+                "appliesTo": {
+                    "principalTypes": [
+                        "Workload",
+                        "User"
+                    ],
+                    "resourceTypes": [
+                        "HTTP_Request"
                     ],
                     "context": {
                         "type": "Context"
