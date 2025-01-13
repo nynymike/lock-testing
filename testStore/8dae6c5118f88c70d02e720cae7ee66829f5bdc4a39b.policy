@@ -1,2 +1,0 @@
-@id("")
-permit(principal is testStore::Workload, action == testStore::Action::"GET", resource is testStore::HTTP_Request) when { ((context["access_token"])["scope"]).contains("secret.scope") };
