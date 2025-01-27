@@ -8,7 +8,7 @@
                 "156669a1616576445eb6b68a5a99ba29222cdc493b72": {
                     "description": "allow_one",
                     "creation_date": "2025-01-07T15:29:44.232295",
-                    "policy_content": "QGlkKCJhbGxvd19vbmUiKQpwZXJtaXQocHJpbmNpcGFsIGlzIEphbnM6Oldvcmtsb2FkLCBhY3Rpb24gPT0gSmFuczo6QWN0aW9uOjoiR0VUIiwgcmVzb3VyY2UgaXMgSmFuczo6SFRUUF9SZXF1ZXN0KTs="
+                    "policy_content": "QGlkKCJhbGxvd19vbmUiKQpwZXJtaXQocHJpbmNpcGFsIGlzIGdhdGV3YXlEZW1vOjpXb3JrbG9hZCwgYWN0aW9uID09IGdhdGV3YXlEZW1vOjpBY3Rpb246OiJHRVQiLCByZXNvdXJjZSBpcyBnYXRld2F5RGVtbzo6SFRUUF9SZXF1ZXN0KTs="
                 }
             },
             "trusted_issuers": {
