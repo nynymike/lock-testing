@@ -1,2 +1,2 @@
 @id("allow_one")
-permit(principal is Jans::Workload, action == Jans::Action::"GET", resource is Jans::HTTP_Request);
+permit(principal is gatewayDemo::Workload, action == gatewayDemo::Action::"GET", resource is gatewayDemo::HTTP_Request);
