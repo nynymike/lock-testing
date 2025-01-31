@@ -54,28 +54,28 @@
                     "tokens_metadata": {
                         "access_tokens": {
                             "trusted": true,
-                            "principal_identifier": "",
+                            "principal_identifier": "jti",
                             "user_id": "",
                             "role_mapping": "",
                             "claim_mapping": {}
                         },
                         "id_tokens": {
                             "trusted": true,
-                            "principal_identifier": "",
+                            "principal_identifier": "jti",
                             "user_id": "",
                             "role_mapping": "",
                             "claim_mapping": {}
                         },
                         "userinfo_tokens": {
                             "trusted": true,
-                            "principal_identifier": "",
+                            "principal_identifier": "jti",
                             "user_id": "",
                             "role_mapping": "",
                             "claim_mapping": {}
                         },
                         "tx_tokens": {
                             "trusted": false,
-                            "principal_identifier": "",
+                            "principal_identifier": "jti",
                             "user_id": "",
                             "role_mapping": "",
                             "claim_mapping": {}
@@ -83,7 +83,7 @@
                         "user_token2": {
                             "user_id": "",
                             "role_mapping": "",
-                            "principal_identifier": "",
+                            "principal_identifier": "jti",
                             "claim_mapping": {},
                             "trusted": true
                         }
