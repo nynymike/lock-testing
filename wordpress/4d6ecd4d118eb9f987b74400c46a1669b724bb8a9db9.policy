@@ -1,0 +1,6 @@
+@id("Allows staff to create/manage any of resources: Ticket, Product, Meeting")
+permit(
+	principal is GluuWPSupportPortal::User in GluuWPSupportPortal::Role::"Staff", 
+	action in [GluuWPSupportPortal::Action::"Write", GluuWPSupportPortal::Action::"Close", GluuWPSupportPortal::Action::"Reply", GluuWPSupportPortal::Action::"Read"], 
+	resource
+);
