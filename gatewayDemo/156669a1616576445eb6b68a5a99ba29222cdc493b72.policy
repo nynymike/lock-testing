@@ -1,2 +1,6 @@
 @id("allow_one")
-permit(principal is gatewayDemo::User, action, resource) when { ((principal has "Userinfo_token") && ((principal["Userinfo_token"]) has "role")) && (((principal["Userinfo_token"])["role"]).contains("abcdef")) };
+permit(principal is gatewayDemo::User, action, resource)
+when {
+  principal has userinfo_token.role &&
+  principal.userinfo_token.role.contains("abcdef")
+};
