@@ -2,5 +2,5 @@
 permit(principal is gatewayDemo::User, action, resource)
 when {
   principal has userinfo_token.role &&
-  principal.userinfo_token.role.contains("admin")
+  principal.userinfo_token.role.contains("manager")
 };
