@@ -83,9 +83,9 @@
                     }
                 },
                 "8b12f781187939cf76933562dd92ac3a52bc2a82f825": {
-                    "name": "jans.test",
-                    "description": "Jans Test",
-                    "openid_configuration_endpoint": "https://jans.test/.well-known/openid-configuration",
+                    "name": "Demo VM",
+                    "description": "Demo VM",
+                    "openid_configuration_endpoint": "https://safinwasi-proper-ringtail.gluu.info/.well-known/openid-configuration",
                     "tokens_metadata": {
                         "access_tokens": {
                             "trusted": true,
