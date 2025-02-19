@@ -8,7 +8,7 @@
                 "156669a1616576445eb6b68a5a99ba29222cdc493b72": {
                     "description": "allow_one",
                     "creation_date": "2025-01-07T15:29:44.232295",
-                    "policy_content": "QGlkKCJhbGxvd19vbmUiKQpwZXJtaXQocHJpbmNpcGFsIGlzIGdhdGV3YXlEZW1vOjpVc2VyLCBhY3Rpb24sIHJlc291cmNlKSB3aGVuIHsgKChwcmluY2lwYWwgaGFzICJVc2VyaW5mb190b2tlbiIpICYmICgocHJpbmNpcGFsWyJVc2VyaW5mb190b2tlbiJdKSBoYXMgInJvbGUiKSkgJiYgKCgocHJpbmNpcGFsWyJVc2VyaW5mb190b2tlbiJdKVsicm9sZSJdKS5jb250YWlucygiYWJjZGVmIikpIH07"
+                    "policy_content": "QGlkKCJhbGxvd19vbmUiKQpwZXJtaXQocHJpbmNpcGFsIGlzIGdhdGV3YXlEZW1vOjpVc2VyLCBhY3Rpb24sIHJlc291cmNlKQp3aGVuIHsKICBwcmluY2lwYWwgaGFzIHVzZXJpbmZvX3Rva2VuLnJvbGUgJiYKICBwcmluY2lwYWwudXNlcmluZm9fdG9rZW4ucm9sZS5jb250YWlucygiYWJjZGVmIikKfTs="
                 }
             },
             "trusted_issuers": {
