@@ -19,31 +19,45 @@
                     "tokens_metadata": {
                         "access_tokens": {
                             "trusted": true,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
+                            "entity_type_name": "Jans::Access_Token",
+                            "token_id": "jti",
+                            "principal_mapping": [
+                                "Jans::Workload"
+                            ],
+                            "workload_id": "aud",
+                            "claim_mapping": {},
+                            "required_claims": [
+                                "jti",
+                                "iss"
+                            ]
                         },
                         "id_tokens": {
                             "trusted": true,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
+                            "entity_type_name": "Jans::Id_token",
+                            "token_id": "jti",
+                            "principal_mapping": [
+                                "Jans::User"
+                            ],
+                            "user_id": "sub",
+                            "claim_mapping": {},
+                            "required_claims": [
+                                "jti",
+                                "iss"
+                            ]
                         },
                         "userinfo_tokens": {
                             "trusted": true,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
-                        },
-                        "tx_tokens": {
-                            "trusted": true,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
+                            "entity_type_name": "Jans::Userinfo_token",
+                            "token_id": "jti",
+                            "principal_mapping": [
+                                "Jans::User"
+                            ],
+                            "user_id": "sub",
+                            "claim_mapping": {},
+                            "required_claims": [
+                                "jti",
+                                "iss"
+                            ]
                         }
                     }
                 },
