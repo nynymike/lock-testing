@@ -115,60 +115,6 @@
                         }
                     }
                 },
-                "c38db701924fb10d14c3c5d4237c28791738ebb812b1": {
-                    "name": "sample",
-                    "description": "description field",
-                    "openid_configuration_endpoint": "https://www.sample.org",
-                    "tokens_metadata": {
-                        "access_tokens": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Access_token",
-                            "user_id": "email",
-                            "token_id": "jti",
-                            "workload_id": "client_id",
-                            "claim_mapping": {},
-                            "required_claims": [
-                                "jti",
-                                "iss",
-                                "aud",
-                                "sub",
-                                "exp",
-                                "nbf",
-                                "some_custom_claim"
-                            ],
-                            "role_mapping": "role",
-                            "principal_mapping": [
-                                "Jans::Workload"
-                            ]
-                        },
-                        "id_tokens": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Id_token",
-                            "user_id": "email | sub | uid",
-                            "token_id": "jti",
-                            "role_mapping": "role | group | memberOf",
-                            "claim_mapping": {},
-                            "principal_identifier": ""
-                        },
-                        "userinfo_tokens": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Userinfo_token",
-                            "user_id": "email | sub | uid",
-                            "token_id": "jti",
-                            "role_mapping": "role | group | memberOf",
-                            "claim_mapping": {},
-                            "principal_identifier": ""
-                        },
-                        "tx_tokens": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Access_token",
-                            "user_id": "email | sub | uid",
-                            "token_id": "jti",
-                            "claim_mapping": {},
-                            "principal_identifier": ""
-                        }
-                    }
-                },
                 "90ec161056b13a8b51c4956d33b14ccdfcefa775d351": {
                     "name": "sample",
                     "description": "description field",
