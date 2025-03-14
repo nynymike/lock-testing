@@ -5,6 +5,6 @@ permit(
   resource is Jans::Application
 )
 when {
-   principal has id_token.acr &&
-   principal.id_token.acr == "agama_io.jans.agamaLab.main"
+   principal has userinfo_token.role &&
+   principal.userinfo_token.role.contains("developer")
 };
