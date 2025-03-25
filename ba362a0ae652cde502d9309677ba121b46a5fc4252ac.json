@@ -2,7 +2,7 @@
     "cedar_version": "4.3.0",
     "policy_stores": {
         "ba362a0ae652cde502d9309677ba121b46a5fc4252ac": {
-            "name": "testing1",
+            "name": "testing2",
             "description": "testing2",
             "policies": {},
             "trusted_issuers": {},
