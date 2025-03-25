@@ -2,8 +2,8 @@
     "cedar_version": "4.3.0",
     "policy_stores": {
         "9fddb20ffc120dec0338dce024b283526dc49add36b1": {
-            "name": "testing1",
-            "description": "testing1",
+            "name": "testing2",
+            "description": "testing2",
             "policies": {
                 "ec98290608b8309c3e3b418de860d1322d3d597b19a7": {
                     "description": "Describe the policy here",
