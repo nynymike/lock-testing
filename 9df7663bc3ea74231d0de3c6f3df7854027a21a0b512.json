@@ -18,32 +18,13 @@
                     "openid_configuration_endpoint": "https://test-casa.gluu.info/.well-known/openid-configuration",
                     "tokens_metadata": {
                         "access_tokens": {
-                            "trusted": false,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
+                            "entity_type_name": "Jans::Access_token"
                         },
                         "id_tokens": {
-                            "trusted": false,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
+                            "entity_type_name": "Jans::Id_token"
                         },
                         "userinfo_tokens": {
-                            "trusted": false,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
-                        },
-                        "tx_tokens": {
-                            "trusted": false,
-                            "principal_identifier": "",
-                            "user_id": "",
-                            "role_mapping": "",
-                            "claim_mapping": {}
+                            "entity_type_name": "Jans::Userinfo_token"
                         }
                     }
                 }
