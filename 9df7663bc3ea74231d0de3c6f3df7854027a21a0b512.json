@@ -24,7 +24,9 @@
                             "entity_type_name": "Jans::Id_token"
                         },
                         "userinfo_tokens": {
-                            "entity_type_name": "Jans::Userinfo_token"
+                            "entity_type_name": "Jans::Userinfo_token",
+                            "user_id": "sub",
+                            "role_mapping": "role"
                         }
                     }
                 }
