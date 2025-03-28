@@ -21,7 +21,7 @@
                             "entity_type_name": "Jans::Access_token"
                         },
                         "id_tokens": {
-                            "entity_type_name": "Jans::Id_token"
+                            "entity_type_name": "Jans::id_token"
                         },
                         "userinfo_tokens": {
                             "entity_type_name": "Jans::Userinfo_token",
