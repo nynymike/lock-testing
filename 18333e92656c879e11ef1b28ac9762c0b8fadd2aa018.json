@@ -44,9 +44,7 @@
                             "token_id": "jti",
                             "role_mapping": "role | group | memberOf",
                             "claim_mapping": {},
-                            "principal_mapping": [
-                                "Jans::User"
-                            ]
+                            "principal_mapping": []
                         },
                         "userinfo_token": {
                             "trusted": true,
