@@ -30,8 +30,7 @@
                                 "aud",
                                 "sub",
                                 "exp",
-                                "nbf",
-                                "some_custom_claim"
+                                "nbf"
                             ],
                             "role_mapping": "role",
                             "principal_mapping": [
