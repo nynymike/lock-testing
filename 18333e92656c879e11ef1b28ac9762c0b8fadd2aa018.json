@@ -17,7 +17,7 @@
                     "description": "Test IDP",
                     "openid_configuration_endpoint": "https://test-jans.gluu.info/.well-known/openid-configuration",
                     "tokens_metadata": {
-                        "access_tokens": {
+                        "access_token": {
                             "trusted": true,
                             "entity_type_name": "Jans::Access_token",
                             "user_id": "email | sub | uid",
@@ -38,7 +38,7 @@
                                 "Jans::Workload"
                             ]
                         },
-                        "id_tokens": {
+                        "id_token": {
                             "trusted": true,
                             "entity_type_name": "Jans::Id_token",
                             "user_id": "email | sub | uid",
@@ -49,7 +49,7 @@
                                 "Jans::User"
                             ]
                         },
-                        "userinfo_tokens": {
+                        "userinfo_token": {
                             "trusted": true,
                             "entity_type_name": "Jans::Userinfo_token",
                             "user_id": "email | sub | uid",
