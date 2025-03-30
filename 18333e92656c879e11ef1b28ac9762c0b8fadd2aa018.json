@@ -39,7 +39,7 @@
                         },
                         "id_token": {
                             "trusted": true,
-                            "entity_type_name": "Jans::Id_token",
+                            "entity_type_name": "Jans::id_token",
                             "user_id": "email | sub | uid",
                             "token_id": "jti",
                             "role_mapping": "role | group | memberOf",
