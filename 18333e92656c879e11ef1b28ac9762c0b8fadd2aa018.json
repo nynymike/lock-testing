@@ -20,10 +20,6 @@
                         "access_token": {
                             "trusted": true,
                             "entity_type_name": "Jans::Access_token",
-                            "user_id": "email | sub | uid",
-                            "token_id": "jti",
-                            "workload_id": "client_id | rp_id",
-                            "claim_mapping": {},
                             "required_claims": [
                                 "jti",
                                 "iss",
@@ -32,36 +28,20 @@
                                 "exp",
                                 "nbf"
                             ],
-                            "role_mapping": "role",
                             "principal_mapping": [
                                 "Jans::Workload"
                             ]
                         },
                         "id_token": {
                             "trusted": true,
-                            "entity_type_name": "Jans::id_token",
-                            "user_id": "sub",
-                            "token_id": "jti",
-                            "role_mapping": "role | group | memberOf",
-                            "claim_mapping": {},
-                            "principal_mapping": []
+                            "entity_type_name": "Jans::id_token"
                         },
                         "userinfo_token": {
                             "trusted": true,
                             "entity_type_name": "Jans::Userinfo_token",
-                            "user_id": "sub",
-                            "token_id": "jti",
-                            "role_mapping": "role | group | memberOf",
-                            "claim_mapping": {},
                             "principal_mapping": [
                                 "Jans::User"
                             ]
-                        },
-                        "tx_tokens": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Access_token",
-                            "user_id": "email | sub | uid",
-                            "token_id": "jti"
                         }
                     }
                 }
