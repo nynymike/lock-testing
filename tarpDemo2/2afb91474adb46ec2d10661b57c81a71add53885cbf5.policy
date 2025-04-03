@@ -3,7 +3,8 @@ permit(
   principal is Jans::User,
   action,
   resource
-) when {
-  principal has userinfo_token.role &&
-  principal.userinfo_token.role.contains("SupremeRuler")
+)
+when {
+  principal has role &&
+  principal.role.contains("SupremeRuler")
 };
