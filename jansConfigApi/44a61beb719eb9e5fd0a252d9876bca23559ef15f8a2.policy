@@ -1,3 +1,4 @@
+@id("testing")
 permit(
   principal is Jans::Workload,
   action in [Jans::Action::"GET"],
