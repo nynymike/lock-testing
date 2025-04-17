@@ -1,6 +1,6 @@
-@id("allow_supreme_ruler")
+@id("allow_casa_admin")
 permit (
-  principal in Jans::Role::"SupremeRuler",
+  principal in Jans::Role::"CasaAdmin",
   action,
   resource
 );
