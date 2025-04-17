@@ -9,11 +9,6 @@
                     "description": "allow_supreme_ruler",
                     "creation_date": "2025-04-07T16:02:31.260907",
                     "policy_content": "QGlkKCJhbGxvd19zdXByZW1lX3J1bGVyIikKcGVybWl0ICgKICBwcmluY2lwYWwgaW4gSmFuczo6Um9sZTo6IlN1cHJlbWVSdWxlciIsCiAgYWN0aW9uLAogIHJlc291cmNlCik7"
-                },
-                "06d6fd7be0ea4a6c08ac5e845900038f4e1d134acff1": {
-                    "description": "Describe the policy here",
-                    "creation_date": "2025-04-17T14:46:25.893996",
-                    "policy_content": "QGlkKCJEZXNjcmliZSB0aGUgcG9saWN5IGhlcmUiKQpwZXJtaXQgKAogIHByaW5jaXBhbCwKICBhY3Rpb24sCiAgcmVzb3VyY2UKKTs="
                 }
             },
             "trusted_issuers": {
