@@ -1,6 +1,9 @@
-@id("allow_all")
+@id("allow_one")
 permit (
-  principal,
-  action,
-  resource
-);
+  principal is Jans::Workload,
+  action in [Jans::Action::"GET"],
+  resource is Jans::HTTP_Request
+) when {
+  principal has access_token.scope &&
+  principal.access_token.scope.contains("openid")
+};
