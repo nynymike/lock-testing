@@ -6,9 +6,9 @@
             "description": "",
             "policies": {
                 "49eeaba6e16990139f77e3324e5f4b0281f9cd792b14": {
-                    "description": "allow_all",
+                    "description": "allow_one",
                     "creation_date": "2025-05-02T15:30:05.975055",
-                    "policy_content": "QGlkKCJhbGxvd19hbGwiKQpwZXJtaXQgKAogIHByaW5jaXBhbCwKICBhY3Rpb24sCiAgcmVzb3VyY2UKKTs="
+                    "policy_content": "QGlkKCJhbGxvd19vbmUiKQpwZXJtaXQgKAogIHByaW5jaXBhbCBpcyBKYW5zOjpXb3JrbG9hZCwKICBhY3Rpb24gaW4gW0phbnM6OkFjdGlvbjo6IkdFVCJdLAogIHJlc291cmNlIGlzIEphbnM6OkhUVFBfUmVxdWVzdAopIHdoZW4gewogIHByaW5jaXBhbCBoYXMgYWNjZXNzX3Rva2VuLnNjb3BlICYmCiAgcHJpbmNpcGFsLmFjY2Vzc190b2tlbi5zY29wZS5jb250YWlucygib3BlbmlkIikKfTs="
                 }
             },
             "trusted_issuers": {
