@@ -12,39 +12,6 @@
                 }
             },
             "trusted_issuers": {
-                "4e0f764b47abbea2fa9d83dd367ebcac28c6dc15d12c": {
-                    "name": "testIdp",
-                    "description": "testIdp",
-                    "openid_configuration_endpoint": "https://test-jans.gluu.info/.well-known/openid-configuration",
-                    "tokens_metadata": {
-                        "access_token": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Access_token",
-                            "required_claims": [
-                                "jti",
-                                "iss",
-                                "aud",
-                                "sub",
-                                "exp",
-                                "nbf"
-                            ],
-                            "principal_mapping": [
-                                "Jans::Workload"
-                            ]
-                        },
-                        "id_token": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::id_token"
-                        },
-                        "userinfo_token": {
-                            "trusted": true,
-                            "entity_type_name": "Jans::Userinfo_token",
-                            "principal_mapping": [
-                                "Jans::User"
-                            ]
-                        }
-                    }
-                },
                 "ed44545bd275f26b3bcf517e49d8a6849406815ba441": {
                     "name": "Gluu",
                     "description": "Gluu",
