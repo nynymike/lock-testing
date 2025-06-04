@@ -6,5 +6,5 @@ permit(
 )
 when {
   principal has role &&
-  principal.role.contains("CasaAdmin")
+  principal.role.contains("SupremeRuler")
 };
