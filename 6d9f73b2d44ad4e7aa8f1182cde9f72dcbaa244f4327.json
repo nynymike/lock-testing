@@ -8,7 +8,7 @@
                 "a2d0458ac26b69e4b191193fa307d941e8ab0ca2d5b1": {
                     "description": "allow_supreme_ruler",
                     "creation_date": "2025-04-07T16:02:31.260907",
-                    "policy_content": "QGlkKCJhbGxvd19zdXByZW1lX3J1bGVyIikKcGVybWl0KAogIHByaW5jaXBhbCBpcyBKYW5zOjpVc2VyLAogIGFjdGlvbiwKICByZXNvdXJjZQopCndoZW4gewogIHByaW5jaXBhbCBoYXMgcm9sZSAmJgogIHByaW5jaXBhbC5yb2xlLmNvbnRhaW5zKCJDYXNhQWRtaW4iKQp9Owo="
+                    "policy_content": "QGlkKCJhbGxvd19zdXByZW1lX3J1bGVyIikKcGVybWl0KAogIHByaW5jaXBhbCBpcyBKYW5zOjpVc2VyLAogIGFjdGlvbiwKICByZXNvdXJjZQopCndoZW4gewogIHByaW5jaXBhbCBoYXMgcm9sZSAmJgogIHByaW5jaXBhbC5yb2xlLmNvbnRhaW5zKCJTdXByZW1lUnVsZXIiKQp9Ow=="
                 }
             },
             "trusted_issuers": {
